@@ -179,8 +179,8 @@ body {
 
 .spotify-playlist .list {
     display: flex;
-    font-size: 22px;
-    margin-bottom: 20px;
+    gap: 20px;
+    overflow: hidden;
 }
 
 .spotify-playlist .list .item {
@@ -226,7 +226,7 @@ body {
 .spotify-playlist .list .item h4 {
     color: #ffffff;
     font-size: 14px;
-    margin: 10px;
+    margin-bottom: 10px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
