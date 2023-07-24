@@ -1,6 +1,6 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -56,14 +56,14 @@ body {
 }
 
 .sidebar .navigation ul li a:hover .fa:hover,
-.sidebar .navigation ul li a:active .fa:active,
-.sidebar .navigation ul li a:focus .fa:focus {
+.sidebar .navigation ul li a:hover .fa:active,
+.sidebar .navigation ul li a:hover .fa:focus {
     color: #ffffff;
 }
 
 .sidebar .policies {
     position: absolute;
-    bottom: 60px;
+    bottom: 100px;
 }
 
 .sidebar .policies ul {
@@ -239,6 +239,10 @@ body {
     font-weight: 600;
 }
 
+.spotify-playlist hr {
+    margin: 70px 0px 0px;
+    border-color: #636363;
+}
 
 .preview {
     position: fixed;
@@ -246,6 +250,7 @@ body {
     left: 0;
     right: 0;
     background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
 }
